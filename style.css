@@ -134,3 +134,43 @@ a {
     padding-right: 175px;
 }
 /*Block 3 end*/
+
+
+/*Block 4 start*/
+.block_4_button {
+    background-color: #3882F6;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    max-width: 100px;
+    cursor: pointer;
+    border: 2px solid white;
+    margin-left: 100px;
+}
+.block_4 {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 500px 32px 500px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 8px;
+}
+.block_4_container .header {
+    font-size: 26px;
+    font-weight: bold;
+}
+.block_4_container .text {
+    font-size: 16px;
+}
+/*Block 4 end*/
+
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
