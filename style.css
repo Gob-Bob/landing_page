@@ -125,22 +125,23 @@ a {
     background-color: #e5e7eB;
     justify-content: center;
     align-items: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 .block_3 .quote {
-    font-size: 36px;
+    font-size: 42px;
     font-style: italic;
     width: 1000px;
     margin-bottom: 16px;
+    color: #505050;
 }
 .block_3 .quote_author {
     display: flex;
-    font-size: 16px;
+    font-size: 28px;
     width: 1000px;
     font-weight: bold;
     justify-content: flex-end;
-    padding-right: 175px;
+    padding-right: 50px;
 }
 /*Block 3 end*/
 
