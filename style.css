@@ -1,13 +1,13 @@
-/*Block 1*/
+/*Block 1 start*/
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .block_1 {
     background-color: #1F2937;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
 }
 .header_logo {
@@ -53,7 +53,7 @@ a {
     font-weight: bold;
 }
 .block_1_button {
-    background-color: rgb(91, 91, 255);
+    background-color: #3882F6;
     border: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,4 +74,43 @@ a {
     gap: 8px;
     flex-shrink: 0;
 }
-/*Block 1*/
+/*Block 1 end*/
+
+
+/*Block 2 start*/
+.block_2_img {
+    width: 200px;
+    height: 200px;
+}
+.block_2_container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 75px;
+}
+.block_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block_2_sub_container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 150px;
+    text-align: center;
+    gap: 8px;
+}
+.block_2_header {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 32px;
+}
+/*Block 2 end*/
+
+
+/*Block 3 start*/
+.block_3 {
+    background-color: #e5e7eB;
+}
+/*Block 3 end*/
