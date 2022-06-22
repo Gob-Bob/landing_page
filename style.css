@@ -151,13 +151,15 @@ a {
     background-color: #3882F6;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 4px 16px;
+    padding: 5px 110px 5px 32px;
     border-radius: 8px;
     font-weight: bold;
-    max-width: 100px;
+    max-width: 0px;
     cursor: pointer;
     border: 2px solid white;
-    margin-left: 100px;
+    margin-left: 200px;
+    font-size: 22px;
+    white-space: nowrap;
 }
 .block_4 {
     background-color: #3882F6;
@@ -165,17 +167,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 500px 50px 500px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    border-radius: 8px;
+    margin: 100px 300px 100px 300px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
 }
 .block_4_container .header {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: bold;
 }
 .block_4_container .text {
-    font-size: 16px;
+    font-size: 22px;
 }
 /*Block 4 end*/
 
@@ -186,5 +188,5 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 50px;
 }
